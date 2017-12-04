@@ -1,0 +1,36 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 1.2rem;
+	color: gray;
+}
+.contentBox {
+	display: flex;
+}
+.main {
+   display: inline-flex;
+   position: relative;
+   width: 100%;
+   height: 500px;
+   border: 1px solid red;
+}
+.twats_A {
+   position: absolute;
+   top: 10%;
+   width: 100%;
+}
+.twats_B {
+   position: absolute;
+   top: 10%;
+   width: 100%;
+}
+.name {
+	font-size: 1rem;
+	color: #005A81;
+}
+.position {
+	position: absolute;
+	top: 30%;
+	font-size: 1rem;
+	
+}
