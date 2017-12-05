@@ -8,6 +8,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	max-width: 1200px;
 }
 .main {
    display: inline-flex;
@@ -18,21 +19,21 @@ body {
    margin-right: 5px;
    margin-bottom: 200px;
 }
-.twats_A {
+.twats {
    position: absolute;
    top: 10%;
    width: 100%;
 }
-.twats_B {
-   position: absolute;
-   top: 10%;
-   width: 100%;
-}
+
 .name {
 	position: absolute;
-	top: 2%;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	color: #005A81;
+	top: 1%;
+}
+.name p {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 .position {
 	position: absolute;
@@ -44,7 +45,7 @@ body {
 	top: 50%;
 	font-size: 1rem;
 }
-	.line {
+.line {
 	position: absolute;
 	top: 73%;
 	width: 100%;
@@ -92,6 +93,9 @@ body {
 		width: 45%;
 	    margin-bottom: 40px;
 	}
+	.name {
+		font-size: 1.2rem;
+	}
 	#flynn .buttonDiv {
 		display: none;
 	}
@@ -111,6 +115,9 @@ body {
 @media only screen and (min-width: 900px) {
 	.main {
 		width: 24%;
+	}
+	.name {
+		font-size: 1rem;
 	}
 	.position {
 		top: 33%;
